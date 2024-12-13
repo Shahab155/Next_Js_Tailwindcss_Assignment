@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/navbar/Navbar";
-import Footer from "@/components/footer/Footer";
+
 import {Heebo,Inter} from "next/font/google"
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 const heebo = Heebo({subsets:["latin"],weight:["400","700"]});
 const inter = Inter({subsets:["latin"], weight:["400","700"] },)
