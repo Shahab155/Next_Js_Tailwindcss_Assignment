@@ -5,8 +5,8 @@ export default function Hero() {
     <>
       <main className="flex justify-center items-center">
         {/* container  */}
-        {/* bg-[#FAF5F5] */}
-        <div className="mx-4  container max-w-[1030px]  ">
+
+        <div className="mx-4  container max-w-[1030px] bg-[#FAF5F5] ">
           {/* content  */}
           {/* content-container  */}
           <section className="md:h-[500px]  h-auto flex flex-col gap-14 md:flex-row items-center md:justify-between">
@@ -20,10 +20,7 @@ export default function Hero() {
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
-              <button
-               
-                className="hover:bg-red-600 bg-[#F98585] w-[205px] min-h-[50px] shadow-black shadow-md text-white font-[400] rounded-sm "
-              >
+              <button className="hover:bg-red-600 bg-[#F98585] w-[205px] min-h-[50px] shadow-black shadow-md text-white font-[400] rounded-sm ">
                 Download Resume
               </button>
             </div>
@@ -36,8 +33,7 @@ export default function Hero() {
                 height={306}
               />
             </div>
-          
-        </section>
+          </section>
         </div>
       </main>
     </>

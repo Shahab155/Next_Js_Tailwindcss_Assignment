@@ -10,7 +10,9 @@ export default function Works() {
           {/* content container */}
           <section className=" flex flex-col h-auto md:h-[934px] max-w-[919px]">
             {/* heading  */}
-            <h3 className="font-[600] text-[22px] relative bottom-5 text-center md:text-start">Featured Works</h3>
+            <h3 className="font-[600] text-[22px] relative bottom-5 text-center md:text-start">
+              Featured Works
+            </h3>
             {/* cards-container  */}
             <div className="h-auto md:h-[896px] flex flex-col justify-around gap-20  ">
               {/* card-1  */}
