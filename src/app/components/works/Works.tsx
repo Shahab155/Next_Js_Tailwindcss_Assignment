@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 
 export default function Works() {
+  const date = new Date();
+  let year = date.getFullYear();
+
   return (
     <>
       <main className="my-12 flex justify-center items-center">
@@ -33,7 +36,7 @@ export default function Works() {
                   {/* badge year and dashboard  */}
                   <div className="flex gap-5 justify-center md:justify-start">
                     <button className="bg-[#F98585] px-4 rounded-[50px] text-white font-[700]">
-                      2024
+                      {year}
                     </button>
                     <p className="text-[20px] font-[400] text-[#0000009E]">
                       Dashboard
@@ -64,7 +67,7 @@ export default function Works() {
                   {/* badge year and dashboard  */}
                   <div className="flex gap-5 justify-center md:justify-start">
                     <button className="bg-[#F98585] px-4 rounded-[50px] text-white font-[700]">
-                      2024
+                      {year}
                     </button>
                     <p className="text-[20px] font-[400] text-[#0000009E]">
                       Dashboard
@@ -97,7 +100,7 @@ export default function Works() {
                   {/* badge year and dashboard  */}
                   <div className="flex gap-5 justify-center md:justify-start">
                     <button className="bg-[#F98585] px-4 rounded-[50px] text-white font-[700]">
-                      2024
+                      {year}
                     </button>
                     <p className="text-[20px] font-[400] text-[#0000009E]">
                       Dashboard

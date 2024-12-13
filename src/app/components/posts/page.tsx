@@ -1,6 +1,11 @@
 import React from "react";
 
 export default function Posts() {
+  const date = new Date();
+  let day = date.getDate();
+  let month = date.getMonth() + 1;
+  let year = date.getFullYear();
+
   return (
     <>
       <main className="my-20  md:h-[502px] h-auto flex justify-center items-center bg-red-100">
@@ -23,8 +28,10 @@ export default function Posts() {
                   Making a design system from scratch
                 </h2>
                 <p className="text-[#000000B2] text-[18px] font-[400]">
-                  <span className="mr-2">12 12 2024</span> |{" "}
-                  <span className="ml-2">Design , Pattern</span>
+                  <span className="mr-2">
+                    {day} {month} {year}
+                  </span>{" "}
+                  | <span className="ml-2">Design , Pattern</span>
                 </p>
                 <p className="font-[400] text-[#21243D]">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -39,8 +46,10 @@ export default function Posts() {
                   Making a design system from scratch
                 </h2>
                 <p className=" text-[#000000B2] text-[18px] font-[400]">
-                  <span className="mr-2">12 12 2024</span> |{" "}
-                  <span className="ml-2">Design , Pattern</span>
+                  <span className="mr-2">
+                    {day} {month} {year}
+                  </span>{" "}
+                  | <span className="ml-2">Design , Pattern</span>
                 </p>
                 <p className=" font-[400] text-[#21243D]">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
